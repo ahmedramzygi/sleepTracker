@@ -22,10 +22,11 @@ import androidx.lifecycle.AndroidViewModel
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 
 /**
- * ViewModel for SleepTrackerFragment.
+ * ViewModel for SleepTrackerFragment takes a dao for accesing the DB and application context.
  */
 class SleepTrackerViewModel(
         val database: SleepDatabaseDao,
         application: Application) : AndroidViewModel(application) {
+
 }
 
